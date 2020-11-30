@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    overflow: hidden;
+}
+body{
+    background-image: url("./images/bg-desktop-light.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% 44%;
+    background-color: hsl(0, 0%, 98%);
+}
+.wrapper{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+form{
+    width: 565px;
+}
+.form{
+    font-size: 80px;
+    color: white;
+    margin-bottom: 70px;
+}
+.todo{
+    padding: 20px;
+    width: 188%;
+}
+.input{
+    display: flex;
+    width: 100%;
+}
+.btn-submit{
+    cursor: pointer;
+    padding: 20px;
+    background-color: hsl(0, 0%, 98%);
+    font-size: 20px;
+    border: none;
+    width: 32%;
+}
+.list{
+    margin-top: 50px;
+    width: auto;
+    height: 40vh;
+    overflow-y: scroll;
+}
+.todo-list{
+    list-style: none;
+}
+.main-div{
+    padding: 20px;
+    border-top: 2px solid rgb(110, 110, 110);
+    background-image: linear-gradient(120deg, white, grey);
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+li{
+    flex: 16;
+    font-size: 27px;
+    margin-left: 34px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.marked{
+    cursor: pointer;
+    border: 2px solid black;
+    padding: 5px;
+}
+.comp{
+    text-decoration: line-through;
+}
+.trash, .marked{
+    padding: 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    flex: 1;
+    cursor: pointer;
+}
+.bg{
+    background-image: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+    color: black;
+}
+.opacity{
+    opacity: 0.4;
+}
+.animate {
+    transform: rotatez(8deg) translatey(40px);
+    transform-origin: left;
+    transition: all 0.5s ease;
+}
+.filter{
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 31px;
+}
+.p{
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
+.p:focus, .p:hover{
+    color: blue;
+}
