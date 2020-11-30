@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 18px;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 body{
     background-image: url("./images/bg-desktop-light.jpg");
