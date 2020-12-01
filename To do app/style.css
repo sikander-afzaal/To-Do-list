@@ -14,11 +14,11 @@ body{
     background-color: hsl(0, 0%, 98%);
 }
 .wrapper{
-    margin-top: 200px;
+    margin-top: 104px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    min-height: 100vh;
+    min-height: 89vh;
 }
 form{
     width: 565px;
@@ -45,7 +45,7 @@ form{
     width: 32%;
 }
 .list{
-    margin-top: 50px;
+    margin-top: 160px;
     width: auto;
     height: 40vh;
     overflow-y: scroll;
@@ -116,4 +116,32 @@ li{
 }
 .p:focus, .p:hover{
     color: blue;
+}
+@media screen and (max-width: 375px){
+    .wrapper{
+        width: 375px;
+    }
+  .list{
+      width: 375px;
+  }
+  .form{
+      font-size: 50px ;
+  }
+  .input-todo{
+      text-align: center;
+      width: 375px;
+  }
+  .input{
+      width: 375px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  .btn-submit{
+    align-self: center;
+  }
+  .todo{
+      width: 340px;
+      align-self: center;
+  }
 }
