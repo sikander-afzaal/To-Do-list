@@ -7,11 +7,7 @@
     overflow-x: hidden;
 }
 body{
-    background-image: url("./images/bg-desktop-light.jpg");
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: 100% 44%;
-    background-color: hsl(0, 0%, 98%);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.9360119047619048) 36%, rgba(82,82,82,0.927608543417367) 53%);
 }
 .wrapper{
     margin-top: 104px;
@@ -45,10 +41,9 @@ form{
     width: 32%;
 }
 .list{
-    margin-top: 160px;
+    margin-top: 50px;
     width: auto;
-    height: 40vh;
-    overflow-y: scroll;
+    height: auto;
 }
 .todo-list{
     list-style: none;
@@ -106,10 +101,10 @@ li{
     width: 100%;
     justify-content: space-around;
     align-items: center;
-    height: 31px;
+    height: auto;
+    color: white;
 }
 .p{
-    color: black;
     font-size: 20px;
     cursor: pointer;
     padding: 10px;
