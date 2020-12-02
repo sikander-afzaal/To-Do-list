@@ -1,6 +1,13 @@
-
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    overflow-x: hidden;
+}
 body{
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(82,82,82,0.927608543417367) 0%, rgba(255,255,255,0.9360119047619048) 36%, rgba(255,182,80,0.927608543417367) 53%);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.9360119047619048) 36%, rgba(82,82,82,0.927608543417367) 53%);
 }
 .wrapper{
     margin-top: 104px;
@@ -44,7 +51,7 @@ form{
 .main-div{
     padding: 20px;
     border-top: 2px solid rgb(110, 110, 110);
-     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(82,82,82,0.927608543417367) 0%, rgba(255,255,255,0.9360119047619048) 36%, rgba(255,182,80,0.927608543417367) 53%);
+    background-image: linear-gradient(120deg, white, grey);
     display: flex;
     justify-content: space-between;
     font-size: 20px;
@@ -132,13 +139,4 @@ li{
       width: 340px;
       align-self: center;
   }
-}
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 18px;
-    overflow-x: hidden;
-    color: black;
 }
