@@ -8,6 +8,7 @@
 }
 body{
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(82,82,82,0.927608543417367) 0%, rgba(255,255,255,0.9360119047619048) 36%, rgba(255,182,80,0.927608543417367) 53%);
+}
 .wrapper{
     margin-top: 104px;
     display: flex;
